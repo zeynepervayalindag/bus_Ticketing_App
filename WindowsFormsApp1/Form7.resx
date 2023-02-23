@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label24.Text" xml:space="preserve">
+    <value>- Bagaja verilen ve değer takdiri yapılmayan eşyaların kaybı 
+halinde, bilet bedelinin üç mislinden fazla para ödenmez. Otobüs ve 
+Şehir içi servis araçları içerisinde unutulan, kaybolan veya çalınan
+ eşyalardan PAMUKKALE TURİZM sorumlu tutulamaz.</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>İnternetten Bilet alırken araç koltuk şeması ekranda 
+gösterilmektedir. Bu şemada erkek ve kadın için uygun koltuklar
+ belirtilmektedir. ALICI koltuk seçerken kendi cinsiyeti için uygun
+ olarak gösterilen koltuğu doğru olarak seçmekle yükümlüdür. Aksi
+ durumda seyahati sırasında başka uygun koltuk varsa o koltuğa
+ yerleştirilir, uygun koltuk yoksa bileti geçersiz sayılır ve bilet bedeli
+ iadesi yapılmaz</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>ALICI, sözleşme konusu yolcu taşıma biletinden, sipariş aşamasında
+ ve ALICI'ya gönderilmiş olan elektronik postada belirtilen hareket 
+saatinden 24(yirmidört saat) öncesine kadar cayma hakkına sahiptir. 
+Cayma hakkının kullanılması için bu süre içinde PAMUKKALE TURİZM
+ 'e şahsen, faks, e-mail veya telefon ile bildirimde bulunulması şarttır.
+ Bu hakkın kullanılması halinde, bilet bedeli ALICI'ya iade edilir. ALICI
+ tarafından PAMUKKALE TURİZM şubesinden basılı yolcu taşıma bileti 
+alınmışsa ALICI bu bilet ile ilgili cayma hakkını ancak yine
+ PAMUKKALE TURİZM şubesinden kimlik ve kredi kartı ile birlikte 
+şahsen başvurarak kullanabilir. Aracın hareket saatine 24 (yirmidört)
+ saat den daha az süre kalması durumunda bilet bedeli iadesi
+ yapılmaz. Aracın hareket saatine 12 (oniki) saat kalıncaya kadar bilet
+ ertelenebilir, bu durumda ALICI'ya PAMUKKALE TURİZM tarafından
+ açık bilet verilir, ALICI bu bileti 6(altı) ay süre ile aynı güzergahtaki 
+uygun bir seferde seyahat etmek için kullanabilir. Aracın hareket
+ saatine 12 (oniki) saatten daha az bir süre kalmışsa bilet cayma hakkı
+ kullanılamaz, açık bilet verilmez alınmış olan bilet geçersiz sayılır.</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value> - ALICI, Madde 3'te belirtilen sözleşme konusu yolcu taşıma
+ biletinin temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata
+ ilişkin tüm ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik 
+ortamda gerekli teyidi verdiğini beyan eder.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>İşbu sözleşme konusu hizmet, otobüs yolcu taşıma bileti olup, biletin,
+ satış bedeli, ödeme şekli, biniş yeri, varış yeri, seyahat tarihi, hareket 
+saati, koltuk numarası siparişin sonlandığı andaki bilgilerden
+ oluşmaktadır ve alıcının elektronik posta adresine de 
+gönderilmektedir.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Ünvan: APAMUKKALE TURİZM Taşımacılık Tic. ve Ltd. Şti. (Bundan 
+sonra PAMUKKALE TURİZM olarak anılacaktır) Adres: Kemalpaşa 
+Cad.No:1/224 Işıkkent/İZMİR Telefon: 0 850 333 35 35 E-mail: 
+info@pamukkale.com.tr</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>İşbu sözleşmenin konusu, SATICI'nın, ALICI'ya satışını yaptığı, yolcu 
+taşıma biletinin satışı ve teslimi ile ilgili olarak 4077 sayılı Tüketicilerin 
+Korunması Hakkındaki Kanun-Mesafeli Sözleşmeleri Uygulama Esas 
+ve Usulleri Hakkında Yönetmelik hükümleri gereğince tarafların hak 
+ve yükümlülüklerinin kapsamaktadır.</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>- Bilet gösterilip, fiş alınarak bagaja verilen eşyanın idari ve adli 
+makamlarda yapılacak muayenelerinde doğacak cezai mesuliyet 
+bagaj sahibine aittir. ALICI seyahati başlangıcında araca binerken 
+bagajını teslim etmesi durumunda mutlaka bagaj fişi istemelidir.
+İşbu sözleşmenin uygulanmasında, Sanayi ve Ticaret Bakanlığınca 
+ilan edilen değere kadar Tüketici Hakem Heyetleri ile PAMUKKALE 
+TURİZM 'in yerleşim yerindeki Tüketici Mahkemeleri yetkilidir.
+Siparişin sonuçlanması durumunda ALICI işbu sözleşmenin tüm 
+koşullarını kabul etmiş sayılacaktır.</value>
+  </data>
+</root>
